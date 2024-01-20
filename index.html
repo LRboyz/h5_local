@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      href="http://h5.dooring.cn/uploads/logo_1742fd359da.png"
+      rel="shortcut icon"
+      type="image/vnd.microsoft.icon"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=0, viewport-fit=cover"
+    />
+    <!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> -->
+
+    <title>加载中...</title>
+
+    <meta
+      name="description"
+      content="Dooring是一款功能强大，开源免费的H5可视化页面配置解决方案，致力于提供一套简单方便、专业可靠、无限可能的H5落地页最佳实践。"
+    />
+    <meta
+      name="keywords"
+      content="H5,HTML5,lowcode,nocode,javascript,react,nodejs,前端开发,github,开源"
+    />
+    <meta name="author" content="徐小夕" />
+    <!-- <meta name="robots" content="noindex, nofollow"> -->
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <!--    -->
+    <style>
+      .rotate-animate {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+      }
+
+      .rotate-animate .rotate-image {
+        display: inline-block;
+        width: 280px;
+        height: 108px;
+      }
+
+      .rotate-animate img {
+        margin-right: 20px;
+        width: 160px;
+      }
+
+      .rotate-animate .balls {
+        width: 3.5em;
+        display: inline-flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .rotate-animate .balls div {
+        width: 0.8em;
+        height: 0.8em;
+        border-radius: 50%;
+        animation: fade 0.8s ease-in-out alternate infinite;
+        background-color: #2842d8;
+      }
+
+      .rotate-animate .balls div:nth-of-type(1) {
+        animation-delay: -0.4s;
+      }
+
+      .rotate-animate .balls div:nth-of-type(2) {
+        animation-delay: -0.2s;
+      }
+
+      @keyframes left-swing {
+        50%,
+        100% {
+          transform: translateX(95%);
+        }
+      }
+
+      @keyframes fade {
+        from {
+          opacity: 1;
+        }
+        to {
+          opacity: 0;
+        }
+      }
+    </style>
+
+    <script src="./template.js"></script>
+
+    <!-- 百度统计代码 -->
+
+    <link rel="stylesheet" href="./umi.css" />
+    <script>
+      window.routerBase = "/";
+    </script>
+    <script>
+      //! umi version: 3.2.19
+    </script>
+    <script>
+      /** dooringVersion: v3.0.0; */
+    </script>
+  </head>
+  <body>
+    <div id="root">
+      <div class="rotate-animate">
+        <div class="rotate-image">
+          <div class="balls">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+    <!-- <script>
+      // 如果需要微信下的debug, 可在此处取消注释
+        (function() {
+          function IsPC() {  
+            var userAgentInfo = navigator.userAgent;
+            var Agents = new Array("Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod");  
+            var flag = true;  
+            for (var v = 0; v < Agents.length; v++) {  
+                if (userAgentInfo.indexOf(Agents[v]) > 0) { flag = false; break; }  
+            }  
+            return flag;  
+          }
+          if (window.location.href.indexOf('http://h5.dooring.cn') > -1 || IsPC()) return;//如果是生产环境, 或者是pc端, 则禁用微信debug模式
+          var script = document.createElement('script');
+          script.src = "//pages.c-ctrip.com/amsweb/tools/vconsole.min.js";
+          document.body.appendChild(script);
+          script.onload = function() {
+            var vConsole = new VConsole();
+          }
+      })();
+    </script> -->
+
+    <script src="https://cdn.bootcdn.net/ajax/libs/axios/0.27.2/axios.min.js"></script>
+    <script src="https://unpkg.com/react@16.14.0/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@16.14.0/umd/react-dom.production.min.js"></script>
+    <script src="./umi.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+.navWrap{display:flex;flex-wrap:wrap;align-items:center}.navWrap .navItem{width:25%;padding-top:10px;padding-bottom:10px}.navWrap .navItem .imgBox{margin:auto;overflow:hidden}.navWrap .navItem .imgBox img{width:100%;height:100%;object-fit:fill}.navWrap .navItem .text{text-align:center}

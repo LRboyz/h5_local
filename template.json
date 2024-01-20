@@ -1,0 +1,88 @@
+{
+    "pageConfig": {
+        "allowOverlap": "freedom",
+        "isLogin": false,
+        "bgColor": "rgba(16,20,29,1)",
+        "bgSize": "100%",
+        "title": "H5-Dooring官网"
+    },
+    "tpl": [
+        {
+            "id": "276059",
+            "item": {
+                "category": "base",
+                "config": {
+                    "cpName": "XButton",
+                    "id": "",
+                    "bgColor": "rgba(22,40,212,1)",
+                    "width": 190,
+                    "marginTop": 0,
+                    "round": 16,
+                    "text": "按钮",
+                    "fontSize": 15,
+                    "color": "rgba(255,255,255,1)",
+                    "animation": "none",
+                    "animationTurn": 1,
+                    "delay": 0,
+                    "interaction": {
+                        "type": "link",
+                        "title": "",
+                        "params": "",
+                        "content": "",
+                        "height": 300,
+                        "width": 300,
+                        "okText": "",
+                        "cancelText": "",
+                        "onOk": "",
+                        "btnColor": "rgba(20,54,226,100)"
+                    }
+                },
+                "h": 23,
+                "type": "XButton"
+            },
+            "point": {
+                "w": 24,
+                "h": 23,
+                "x": 0,
+                "y": 0,
+                "i": "276059",
+                "moved": false,
+                "static": false,
+                "isBounded": true
+            },
+            "status": "inToCanvas"
+        },
+        {
+            "id": "260487",
+            "item": {
+                "category": "base",
+                "config": {
+                    "cpName": "LongText",
+                    "id": "",
+                    "text": "我是长文本有一段故事，dooring可视化编辑器无限可能，赶快来体验吧，骚年们，奥利给~",
+                    "color": "rgba(60,60,60,1)",
+                    "fontSize": 14,
+                    "indent": 0,
+                    "lineHeight": 1.8,
+                    "textAlign": "left",
+                    "bgColor": "rgba(255,255,255,0)",
+                    "padding": 0,
+                    "radius": 0
+                },
+                "h": 36,
+                "type": "LongText"
+            },
+            "point": {
+                "w": 24,
+                "h": 36,
+                "x": 0,
+                "y": 23,
+                "i": "260487",
+                "moved": false,
+                "static": false,
+                "isBounded": true
+            },
+            "status": "inToCanvas"
+        }
+    ]
+}
